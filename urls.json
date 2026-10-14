@@ -1,0 +1,36 @@
+{
+  "_说明": "航展哨兵OTA配置仓(公开)。只含购票通道与售票日历,无任何个人信息。云端更新后,用户APK下个拉取周期(约10分钟)自动生效,无需重装。",
+  "_数据状态": "assumed",
+  "_说明数据": "⚠ 售票日历与开售时刻为推测值,待10月16日发布会/官方渠道核实后更新为verified。主购票通道=大麦App(官方独家代理,已OCR公告原文证实)。",
+  "settings": {
+    "售票日": ["2026-10-19", "2026-10-26", "2026-11-02", "2026-11-09", "2026-11-16", "2026-11-23", "2026-11-30", "2026-12-03"],
+    "开售时刻": "12:00",
+    "蹲守截止": "2026-12-13"
+  },
+  "urls": [
+    {
+      "name": "大麦-第十六届中国航展(官方独家代理,仅App端购票)",
+      "url": "https://t.damai.cn/yep/page/m/mrf50uu70w",
+      "type": "ticket",
+      "enabled": true
+    },
+    {
+      "name": "中国航展官网-首页",
+      "url": "https://www.airshow.com.cn/",
+      "type": "announce",
+      "enabled": true
+    },
+    {
+      "name": "中国航展官网-观众及购票",
+      "url": "https://www.airshow.com.cn/Category_1186/Index.aspx",
+      "type": "announce",
+      "enabled": true
+    },
+    {
+      "name": "中国航展官网-普通观众",
+      "url": "https://www.airshow.com.cn/Category_1147/Index.aspx",
+      "type": "announce",
+      "enabled": true
+    }
+  ]
+}
